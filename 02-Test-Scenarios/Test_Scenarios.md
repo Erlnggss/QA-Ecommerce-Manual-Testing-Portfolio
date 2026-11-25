@@ -8,7 +8,7 @@ Testing Type: Manual Testing
 | Scenario ID | Requirement ID | Module | Test Scenario | Type | Priority |
 |---|---|---|---|---|---|
 | TS-LOGIN-001 | RQ-001 | Login | Memastikan user berhasil login dengan credential valid | Positive | High |
-| TS-LOGIN-002 | RQ-001 | Login | | | |
+| TS-LOGIN-002 | RQ-001 | Login | Memastikan login ditolak jika password salah | Negative | High |
 | TS-LOGIN-003 | RQ-001 | Login | | | |
 | TS-LOGIN-004 | RQ-001 | Login | | | |
 | TS-LOGIN-005 | RQ-001 | Login | | | |
