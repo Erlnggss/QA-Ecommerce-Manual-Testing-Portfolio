@@ -49,7 +49,7 @@ Test scenarios and test cases will be designed based on the defined requirements
 - Application URL: https://www.saucedemo.com/
 - Testing Platform: Web Browser
 - Browser: Google Chrome
-- Operating System: [Your Operating System]
+- Operating System: Windows.
 - Testing Type: Manual Testing
 
 ### 6. Entry Criteria
