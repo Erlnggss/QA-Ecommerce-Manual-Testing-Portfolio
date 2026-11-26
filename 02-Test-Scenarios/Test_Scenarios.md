@@ -13,11 +13,11 @@ Testing Type: Manual Testing
 | TS-LOGIN-004 | RQ-001 | Login |Memastikan login ditolak apabila tanpa input username valid | Negative | High|
 | TS-LOGIN-005 | RQ-001 | Login | Memastikan login ditolak apabila tanpa input password valid | Negative | High |
 | TS-LOGIN-006 | RQ-001 | Login | Memastikan login ditolak ketika user menggunakan akun yang terkunci dengan credential yang sesuai | Negative | High |
-| TS-INV-001 | RQ-002 | Inventory | | | |
-| TS-INV-002 | RQ-002 | Inventory | | | |
-| TS-INV-003 | RQ-002 | Inventory | | | |
-| TS-INV-004 | RQ-002 | Inventory | | | |
-| TS-INV-005 | RQ-002 | Inventory | | | |
+| TS-INV-001 | RQ-002 | Inventory | Memastikan halaman inventory berhasil ditampilkan setelah user login | Positive | High |
+| TS-INV-002 | RQ-002 | Inventory | Memastikan seluruh produk ditampilkan sesuai daftar produk yang tersedia | Positive | High |
+| TS-INV-003 | RQ-002 | Inventory | Memastikan setiap produk menampilkan nama dan harga yang sesuai | Positive | High |
+| TS-INV-004 | RQ-002 | Inventory | Memastikan gambar setiap produk ditampilkan dengan benar dan sesuai dengan produk terkait | Positive | Medium |
+| TS-INV-005 | RQ-002 | Inventory | Memastikan halaman detail menampilkan informasi sesuai produk yang dipilih dari inventory | Positive | Medium |
 | TS-SORT-001 | RQ-003 | Sorting | | | |
 | TS-SORT-002 | RQ-003 | Sorting | | | |
 | TS-SORT-003 | RQ-003 | Sorting | | | |
