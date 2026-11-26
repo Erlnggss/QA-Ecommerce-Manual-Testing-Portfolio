@@ -8,11 +8,11 @@ Testing Type: Manual Testing
 | Scenario ID | Requirement ID | Module | Test Scenario | Type | Priority |
 |---|---|---|---|---|---|
 | TS-LOGIN-001 | RQ-001 | Login | Memastikan user berhasil login dengan credential valid | Positive | High |
-| TS-LOGIN-002 | RQ-001 | Login | Memastikan login ditolak jika password salah | Negative | High |
-| TS-LOGIN-003 | RQ-001 | Login |Memastikan login ditolak jika username salah | Negative | High |
-| TS-LOGIN-004 | RQ-001 | Login |Memastikan login ditolak apabila tanpa input username | Negative | High|
-| TS-LOGIN-005 | RQ-001 | Login | Memastikan login ditolak apabila tanpa input password | Negative | High |
-| TS-LOGIN-006 | RQ-001 | Login | Memastikan login ditolak menggunakan user yang di kunci | Negative | High |
+| TS-LOGIN-002 | RQ-001 | Login | Memastikan login ditolak jika password salah dengan username valid | Negative | High |
+| TS-LOGIN-003 | RQ-001 | Login |Memastikan login ditolak jika username salah dengan password valid | Negative | High |
+| TS-LOGIN-004 | RQ-001 | Login |Memastikan login ditolak apabila tanpa input username valid | Negative | High|
+| TS-LOGIN-005 | RQ-001 | Login | Memastikan login ditolak apabila tanpa input password valid | Negative | High |
+| TS-LOGIN-006 | RQ-001 | Login | Memastikan login ditolak ketika user menggunakan akun yang terkunci dengan credential yang sesuai | Negative | High |
 | TS-INV-001 | RQ-002 | Inventory | | | |
 | TS-INV-002 | RQ-002 | Inventory | | | |
 | TS-INV-003 | RQ-002 | Inventory | | | |
