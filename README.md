@@ -1,9 +1,8 @@
 # E-Commerce Web Application – Manual QA Testing Portfolio
 
 ## Project Overview
-This project is a manual QA testing portfolio focused on testing an e-commerce web application using black box testing techniques.
-
-The objective is to validate application functionality, identify defects, and evaluate the user experience based on defined requirements.
+Proyek ini merupakan portofolio pengujian QA manual yang berfokus pada pengujian aplikasi web e-commerce dengan menggunakan teknik pengujian BlackBox Testing.
+Tujuannya adalah untuk memvalidasi fungsionalitas aplikasi, mengidentifikasi defect, serta mengevaluasi pengalaman pengguna berdasarkan persyaratan yang telah ditetapkan.
 
 ## Application Under Test
 - Application: SauceDemo
@@ -49,4 +48,4 @@ Junior QA Engineer | Manual Tester
 In Progress
 
 ## Author
-QA Engineer Portfolio
+Erlangga Setiyawan
