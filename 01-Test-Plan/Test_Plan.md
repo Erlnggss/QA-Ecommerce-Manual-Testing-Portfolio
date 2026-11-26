@@ -32,9 +32,9 @@ Pengujian akan berfokus pada identifikasi defect, validasi alur kerja user, sert
 - Payment gateway integration testing
 
 ### 4. Testing Approach
-Testing will be performed manually using the black box testing methodology.
+Pengujian akan dilakukan secara manual dengan menggunakan metodologi pengujian Black Box Testing.
 
-The testing approach includes:
+Pendekatan pengujian mencakup:
 - Functional testing
 - Positive testing
 - Negative testing
@@ -52,20 +52,20 @@ Skenario pengujian dan kasus pengujian akan dirancang berdasarkan persyaratan ya
 - Testing Type: Manual Testing
 
 ### 6. Entry Criteria
-Testing can begin when:
-- The application is accessible.
-- The testing environment is available.
-- The test requirements have been reviewed.
-- Valid test credentials are available.
-- The main application features are ready to be tested.
+Pengujian dapat dimulai ketika:
+- Aplikasi tersebut dapat diakses.
+- Lingkungan pengujian tersedia.
+- Persyaratan pengujian telah ditinjau.
+- Kredensial pengujian yang sah tersedia.
+- Fitur-fitur utama aplikasi sudah siap untuk diuji.
 
 ### 7. Exit Criteria
-Testing can be considered complete when:
-- All planned test cases have been executed.
-- Test results have been documented.
-- Identified defects have been reported.
-- Critical defects have been reviewed.
-- The test summary report has been completed.
+Pengujian dapat dianggap selesai bila:
+- Semua kasus uji yang direncanakan telah dijalankan.
+- Hasil pengujian telah didokumentasikan.
+- Defect yang teridentifikasi telah dilaporkan.
+- Cacat kritis telah ditinjau.
+- Laporan ringkasan pengujian telah selesai.
 
 ### 8. Risk Assessment
 
