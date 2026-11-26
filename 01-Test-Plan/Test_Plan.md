@@ -10,9 +10,8 @@
 - QA Role: Junior QA Engineer
 
 ### 2. Testing Objective
-The objective of this testing is to verify that the main functionalities of the e-commerce application work according to the defined requirements.
-
-Testing will focus on identifying defects, validating user workflows, and ensuring that the application provides expected functionality.
+Tujuan dari pengujian ini adalah untuk memverifikasi bahwa fungsi-fungsi utama aplikasi e-commerce berjalan sesuai dengan persyaratan yang telah ditetapkan.
+Pengujian akan berfokus pada identifikasi defect, validasi alur kerja user, serta memastikan bahwa aplikasi menyediakan fungsionalitas yang diharapkan.
 
 ### 3. Scope of Testing
 
@@ -42,7 +41,7 @@ The testing approach includes:
 - Exploratory testing
 - Regression testing
 
-Test scenarios and test cases will be designed based on the defined requirements. Actual results will be compared with expected results to identify defects.
+Skenario pengujian dan kasus pengujian akan dirancang berdasarkan persyaratan yang telah ditetapkan. Hasil aktual akan dibandingkan dengan hasil yang diharapkan untuk mengidentifikasi defect.
 
 ### 5. Test Environment
 - Application: SauceDemo
@@ -89,8 +88,7 @@ Testing can be considered complete when:
 - Requirement Traceability Matrix
 
 ### 10. Conclusion
-This test plan defines the testing scope, approach, environment, risks, and criteria for testing the e-commerce web application.
-
-The testing process will focus on validating the main user functionalities and identifying defects through manual black box testing.
+Rencana pengujian ini menetapkan lingkup, pendekatan, lingkungan, risiko, serta kriteria pengujian untuk aplikasi web e-commerce.
+Proses pengujian akan berfokus pada validasi fungsionalitas utama pengguna dan identifikasi cacat melalui pengujian Manual Blackbox Testing.
 
 Project Status: In Progress
