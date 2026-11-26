@@ -20,7 +20,7 @@ Testing Type: Manual Testing
 | TS-INV-005 | RQ-002 | Inventory | Memastikan halaman detail menampilkan informasi sesuai produk yang dipilih dari inventory | Positive | Medium |
 | TS-SORT-001 | RQ-003 | Sorting | Memastikan produk diurutkan berdasarkan nama secara ascending (A–Z) ketika user memilih opsi Name (A to Z) | Positive | Medium | 
 | TS-SORT-002 | RQ-003 | Sorting | Memastikan produk diurutkan berdasarkan nama secara descending (Z–A) ketika user memilih opsi Name (Z to A) | Positive | Medium |
-| TS-SORT-003 | RQ-003 | Sorting | Sorting | Memastikan produk diurutkan berdasarkan harga dari terendah ke tertinggi ketika user memilih Price (low to high) | Positive | High |
+| TS-SORT-003 | RQ-003 | Sorting | Memastikan produk diurutkan berdasarkan harga dari terendah ke tertinggi ketika user memilih Price (low to high) | Positive | High |
 | TS-SORT-004 | RQ-003 | Sorting | Memastikan produk diurutkan berdasarkan harga dari tertinggi ke terendah ketika user memilih Price (high to low) | Positive | High |
 | TS-CART-001 | RQ-004 | Cart | | | |
 | TS-CART-002 | RQ-004 | Cart | | | |
