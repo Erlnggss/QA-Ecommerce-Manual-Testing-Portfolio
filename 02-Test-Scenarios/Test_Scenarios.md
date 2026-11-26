@@ -9,10 +9,10 @@ Testing Type: Manual Testing
 |---|---|---|---|---|---|
 | TS-LOGIN-001 | RQ-001 | Login | Memastikan user berhasil login dengan credential valid | Positive | High |
 | TS-LOGIN-002 | RQ-001 | Login | Memastikan login ditolak jika password salah | Negative | High |
-| TS-LOGIN-003 | RQ-001 | Login | | | |
-| TS-LOGIN-004 | RQ-001 | Login | | | |
-| TS-LOGIN-005 | RQ-001 | Login | | | |
-| TS-LOGIN-006 | RQ-001 | Login | | | |
+| TS-LOGIN-003 | RQ-001 | Login |Memastikan login ditolak jika username salah | Negative | High |
+| TS-LOGIN-004 | RQ-001 | Login |Memastikan login ditolak apabila tanpa input username | Negative | High|
+| TS-LOGIN-005 | RQ-001 | Login | Memastikan login ditolak apabila tanpa input password | Negative | High |
+| TS-LOGIN-006 | RQ-001 | Login | Memastikan login ditolak menggunakan user yang di kunci | Negative | High |
 | TS-INV-001 | RQ-002 | Inventory | | | |
 | TS-INV-002 | RQ-002 | Inventory | | | |
 | TS-INV-003 | RQ-002 | Inventory | | | |
