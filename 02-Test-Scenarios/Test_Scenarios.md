@@ -43,18 +43,19 @@ Testing Type: Manual Testing
 
 | Requirement ID | Requirement | Test Scenario IDs | Coverage Status |
 |---|---|---|---|
-| RQ-001 | Login | | |
-| RQ-002 | Inventory | | |
-| RQ-003 | Sorting | | |
-| RQ-004 | Shopping Cart | | |
-| RQ-005 | Checkout | | |
-| RQ-006 | Order Completion | | |
+| RQ-001 | Login | TS-LOGIN-001, TS-LOGIN-002, TS-LOGIN-003, TS-LOGIN-004, TS-LOGIN-005, TS-LOGIN-006 | Covered |
+| RQ-002 | Inventory | TS-INV-001, TS-INV-002, TS-INV-003, TS-INV-004, TS-INV-005 | Covered |
+| RQ-003 | Sorting | TS-SORT-001, TS-SORT-002, TS-SORT-003, TS-SORT-004 | Covered |
+| RQ-004 | Shopping Cart | TS-CART-001, TS-CART-002, TS-CART-003, TS-CART-004, TS-CART-005, TS-CART-006 | Covered |
+| RQ-005 | Checkout | TS-CHK-001, TS-CHK-002, TS-CHK-003, TS-CHK-004, TS-CHK-005 | Covered |
+| RQ-006 | Order Completion | TS-ORD-001, TS-ORD-002, TS-ORD-003, TS-ORD-004 | Covered |
 
 ## Scenario Summary
 
 - Total Test Scenarios: 30
-- Positive Scenarios:
-- Negative Scenarios:
-- Edge Case Scenarios:
+- Positive Scenarios: 15
+- Negative Scenarios: 5
+- Edge Case Scenarios: 1
+- Data Consistency Scenarios: 2
 
-Status: In Progress
+Status: Complete
