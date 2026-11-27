@@ -28,11 +28,11 @@ Testing Type: Manual Testing
 | TS-CART-004 | RQ-004 | Cart | Memastikan jumlah item pada cart bertambah sesuai jumlah produk yang ditambahkan | Validation | Medium |
 | TS-CART-005 | RQ-004 | Cart | Memastikan produk dan informasi yang ditampilkan di cart sesuai dengan produk yang dipilih user | Positive | High |
 | TS-CART-006 | RQ-004 | Cart | Memastikan seluruh produk dapat dihapus dan cart menampilkan kondisi kosong | Positive | Medium |
-| TS-CHK-001 | RQ-005 | Checkout | | | |
-| TS-CHK-002 | RQ-005 | Checkout | | | |
-| TS-CHK-003 | RQ-005 | Checkout | | | |
-| TS-CHK-004 | RQ-005 | Checkout | | | |
-| TS-CHK-005 | RQ-005 | Checkout | | | |
+| TS-CHK-001 | RQ-005 | Checkout | Memastikan user berhasil melanjutkan proses checkout dengan mengisi First Name, Last Name, dan Zip/Postal Code yang valid | Positive | High |
+| TS-CHK-002 | RQ-005 | Checkout | Memastikan sistem menolak proses checkout apabila First Name tidak diisi dan menampilkan pesan validasi yang sesuai | Negative | High |
+| TS-CHK-003 | RQ-005 | Checkout | Memastikan sistem menolak proses checkout apabila Last Name tidak diisi dan menampilkan pesan validasi yang sesuai | Negative | High |
+| TS-CHK-004 | RQ-005 | Checkout | Memastikan sistem menolak proses checkout apabila Zip/Postal Code tidak diisi dan menampilkan pesan validasi yang sesuai | Negative | High |
+| TS-CHK-005 | RQ-005 | Checkout | Memastikan nama produk, harga setiap produk, subtotal, pajak, dan total pembayaran ditampilkan sesuai dengan item yang terdapat di shopping cart | Validation | High |
 | TS-ORD-001 | RQ-006 | Order | | | |
 | TS-ORD-002 | RQ-006 | Order | | | |
 | TS-ORD-003 | RQ-006 | Order | | | |
