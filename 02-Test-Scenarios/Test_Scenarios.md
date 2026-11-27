@@ -33,10 +33,10 @@ Testing Type: Manual Testing
 | TS-CHK-003 | RQ-005 | Checkout | Memastikan sistem menolak proses checkout apabila Last Name tidak diisi dan menampilkan pesan validasi yang sesuai | Negative | High |
 | TS-CHK-004 | RQ-005 | Checkout | Memastikan sistem menolak proses checkout apabila Zip/Postal Code tidak diisi dan menampilkan pesan validasi yang sesuai | Negative | High |
 | TS-CHK-005 | RQ-005 | Checkout | Memastikan nama produk, harga setiap produk, subtotal, pajak, dan total pembayaran ditampilkan sesuai dengan item yang terdapat di shopping cart | Validation | High |
-| TS-ORD-001 | RQ-006 | Order | | | |
-| TS-ORD-002 | RQ-006 | Order | | | |
-| TS-ORD-003 | RQ-006 | Order | | | |
-| TS-ORD-004 | RQ-006 | Order | | | |
+| TS-ORD-001 | RQ-006 | Order | Memastikan user berhasil menyelesaikan pembelian dengan menekan tombol Finish pada halaman Checkout Overview | Positive | High |
+| TS-ORD-002 | RQ-006 | Order | Memastikan sistem menampilkan pesan konfirmasi setelah order berhasil diselesaikan | Validation | High |
+| TS-ORD-003 | RQ-006 | Order | Memastikan user dapat kembali ke halaman Inventory setelah order berhasil diselesaikan dengan menekan tombol Back Home | Positive | Medium |
+| TS-ORD-004 | RQ-006 | Order | Memastikan shopping cart kosong setelah order berhasil diselesaikan dan user kembali ke halaman Inventory | Positive | High |
 
 
 ## Requirement Traceability Matrix (RTM)
