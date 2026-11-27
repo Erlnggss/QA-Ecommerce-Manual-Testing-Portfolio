@@ -27,7 +27,7 @@ Testing Type: Manual Testing
 | TS-CART-003 | RQ-004 | Cart | Memastikan user berhasil menghapus produk yang dipilih dari shopping cart | Positive | High |
 | TS-CART-004 | RQ-004 | Cart | Memastikan jumlah item pada cart bertambah sesuai jumlah produk yang ditambahkan | Validation | Medium |
 | TS-CART-005 | RQ-004 | Cart | Memastikan produk dan informasi yang ditampilkan di cart sesuai dengan produk yang dipilih user | Positive | High |
-| TS-CART-006 | RQ-004 | Cart | Memastikan seluruh produk dapat dihapus dan cart menampilkan kondisi kosong | Positive | Medium |
+| TS-CART-006 | RQ-004 | Cart | Memastikan seluruh produk dapat dihapus dan cart menampilkan kondisi kosong | Edge Case | Medium |
 | TS-CHK-001 | RQ-005 | Checkout | Memastikan user berhasil melanjutkan proses checkout dengan mengisi First Name, Last Name, dan Zip/Postal Code yang valid | Positive | High |
 | TS-CHK-002 | RQ-005 | Checkout | Memastikan sistem menolak proses checkout apabila First Name tidak diisi dan menampilkan pesan validasi yang sesuai | Negative | High |
 | TS-CHK-003 | RQ-005 | Checkout | Memastikan sistem menolak proses checkout apabila Last Name tidak diisi dan menampilkan pesan validasi yang sesuai | Negative | High |
@@ -36,7 +36,7 @@ Testing Type: Manual Testing
 | TS-ORD-001 | RQ-006 | Order | Memastikan user berhasil menyelesaikan pembelian dengan menekan tombol Finish pada halaman Checkout Overview | Positive | High |
 | TS-ORD-002 | RQ-006 | Order | Memastikan sistem menampilkan pesan konfirmasi setelah order berhasil diselesaikan | Validation | High |
 | TS-ORD-003 | RQ-006 | Order | Memastikan user dapat kembali ke halaman Inventory setelah order berhasil diselesaikan dengan menekan tombol Back Home | Positive | Medium |
-| TS-ORD-004 | RQ-006 | Order | Memastikan shopping cart kosong setelah order berhasil diselesaikan dan user kembali ke halaman Inventory | Positive | High |
+| TS-ORD-004 | RQ-006 | Order | Memastikan shopping cart kosong setelah order berhasil diselesaikan dan user kembali ke halaman Inventory | Data Consistency | High |
 
 
 ## Requirement Traceability Matrix (RTM)
