@@ -22,12 +22,12 @@ Testing Type: Manual Testing
 | TS-SORT-002 | RQ-003 | Sorting | Memastikan produk diurutkan berdasarkan nama secara descending (Z–A) ketika user memilih opsi Name (Z to A) | Positive | Medium |
 | TS-SORT-003 | RQ-003 | Sorting | Memastikan produk diurutkan berdasarkan harga dari terendah ke tertinggi ketika user memilih Price (low to high) | Positive | High |
 | TS-SORT-004 | RQ-003 | Sorting | Memastikan produk diurutkan berdasarkan harga dari tertinggi ke terendah ketika user memilih Price (high to low) | Positive | High |
-| TS-CART-001 | RQ-004 | Cart | | | |
-| TS-CART-002 | RQ-004 | Cart | | | |
-| TS-CART-003 | RQ-004 | Cart | | | |
-| TS-CART-004 | RQ-004 | Cart | | | |
-| TS-CART-005 | RQ-004 | Cart | | | |
-| TS-CART-006 | RQ-004 | Cart | | | |
+| TS-CART-001 | RQ-004 | Cart | Memastikan user berhasil menambahkan satu produk ke shopping cart | Positive | High |
+| TS-CART-002 | RQ-004 | Cart | Memastikan user berhasil menambahkan beberapa produk ke shopping cart | Positive | High |
+| TS-CART-003 | RQ-004 | Cart | Memastikan user berhasil menghapus produk yang dipilih dari shopping cart | Positive | High |
+| TS-CART-004 | RQ-004 | Cart | Memastikan jumlah item pada cart bertambah sesuai jumlah produk yang ditambahkan | Validation | Medium |
+| TS-CART-005 | RQ-004 | Cart | Memastikan produk dan informasi yang ditampilkan di cart sesuai dengan produk yang dipilih user | Data Consistency | High |
+| TS-CART-006 | RQ-004 | Cart | Memastikan seluruh produk dapat dihapus dan cart menampilkan kondisi kosong | Edge Case | Medium |
 | TS-CHK-001 | RQ-005 | Checkout | | | |
 | TS-CHK-002 | RQ-005 | Checkout | | | |
 | TS-CHK-003 | RQ-005 | Checkout | | | |
