@@ -26,8 +26,8 @@ Testing Type: Manual Testing
 | TS-CART-002 | RQ-004 | Cart | Memastikan user berhasil menambahkan beberapa produk ke shopping cart | Positive | High |
 | TS-CART-003 | RQ-004 | Cart | Memastikan user berhasil menghapus produk yang dipilih dari shopping cart | Positive | High |
 | TS-CART-004 | RQ-004 | Cart | Memastikan jumlah item pada cart bertambah sesuai jumlah produk yang ditambahkan | Validation | Medium |
-| TS-CART-005 | RQ-004 | Cart | Memastikan produk dan informasi yang ditampilkan di cart sesuai dengan produk yang dipilih user | Data Consistency | High |
-| TS-CART-006 | RQ-004 | Cart | Memastikan seluruh produk dapat dihapus dan cart menampilkan kondisi kosong | Edge Case | Medium |
+| TS-CART-005 | RQ-004 | Cart | Memastikan produk dan informasi yang ditampilkan di cart sesuai dengan produk yang dipilih user | Positive | High |
+| TS-CART-006 | RQ-004 | Cart | Memastikan seluruh produk dapat dihapus dan cart menampilkan kondisi kosong | Positive | Medium |
 | TS-CHK-001 | RQ-005 | Checkout | | | |
 | TS-CHK-002 | RQ-005 | Checkout | | | |
 | TS-CHK-003 | RQ-005 | Checkout | | | |
