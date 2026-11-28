@@ -53,8 +53,10 @@ Testing Type: Manual Testing
 ## Scenario Summary
 
 - Total Test Scenarios: 30
-- Positive Scenarios: 15
+- Positive Scenarios: 17
 - Negative Scenarios: 8
-- Validations Scenarios: 2
+- Validations Scenarios: 3
+- Edge Case Scenarios : 1
+- Data Consistency Scenarios : 1
 
 Status: Complete
