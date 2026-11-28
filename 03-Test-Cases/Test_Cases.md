@@ -26,8 +26,8 @@ Untuk memverifikasi bahwa fitur-fitur utama aplikasi e-commerce berfungsi sebaga
 | Priority | High |
 
 ### Preconditions
-- Pengguna berada di halaman login
-- Akun pengguna aktif
+- User berada di halaman login
+- Akun User aktif
 
 ### Test Data
 - Username: standard_user
@@ -40,8 +40,8 @@ Untuk memverifikasi bahwa fitur-fitur utama aplikasi e-commerce berfungsi sebaga
 4. Klik Login.
 
 ### Expected Result
-- Pengguna berhasil masuk.
-- Pengguna diarahkan ke halaman Inventory.
+- User berhasil login.
+- User diarahkan ke halaman Inventory.
 - Produk yang tersedia ditampilkan.
 
 ### Actual Result
@@ -53,7 +53,7 @@ PASS
 
 ---
 
-## TC-LOGIN-002 – Login with Invalid Password
+## TC-LOGIN-002 – Login dengan password salah
 
 | Field | Description |
 |---|---|
@@ -64,32 +64,32 @@ PASS
 | Priority | High |
 
 ### Preconditions
-- User is on the login page.
+- User berada di halaman login.
 
 ### Test Data
 - Username: standard_user
-- Password: invalid_password
+- Password: Bebebe23.
 
 ### Test Steps
-1. Open the login page.
-2. Enter a valid username.
-3. Enter an invalid password.
-4. Click the Login button.
+1. Buka halaman login.
+2. Masukkan username yang valid.
+3. Masukkan password yang tidak valid (Bebebe23.).
+4. Klik tombol login.
 
 ### Expected Result
-- Login is rejected.
-- User remains on the login page.
-- An appropriate error message is displayed.
+- Login ditolak.
+- User tetap berada di halaman login.
+- Pesan error yang sesuai ditampilkan.
 
 ### Actual Result
-Not executed.
+Login ditolak setelah kata sandi yang salah dimasukkan. User tetap berada di halaman login, dan pesan Error ditampilkan.
 
 ### Status
-NOT RUN
+PASS
 
 ---
 
-## TC-LOGIN-003 – Login with Invalid Username
+## TC-LOGIN-003 – Masuk dengan Nama Username Tidak Valid
 
 | Field | Description |
 |---|---|
@@ -100,32 +100,32 @@ NOT RUN
 | Priority | High |
 
 ### Preconditions
-- User is on the login page.
+- User berada di halaman login.
 
 ### Test Data
-- Username: invalid_user
+- Username: Bebebe23
 - Password: secret_sauce
 
 ### Test Steps
-1. Open the login page.
-2. Enter an invalid username.
-3. Enter a valid password.
-4. Click the Login button.
+1. Buka halaman login.
+2. Masukkan Username yang tidak valid.
+3. Masukkan kata sandi valid.
+4. Klik tombol Masuk.
 
 ### Expected Result
-- Login is rejected.
-- User remains on the login page.
-- An appropriate error message is displayed.
+- Login ditolak.
+- User tetap berada di halaman login.
+- Pesan kesalahan yang sesuai ditampilkan.
 
 ### Actual Result
-Not executed.
+Login ditolak setelah username yang salah dimasukkan. User tetap berada di halaman login, dan pesan Error ditampilkan.
 
 ### Status
-NOT RUN
+PASS
 
 ---
 
-## TC-LOGIN-004 – Login with Empty Username
+## TC-LOGIN-004 – Login dengan Username Kosong
 
 | Field | Description |
 |---|---|
@@ -136,32 +136,32 @@ NOT RUN
 | Priority | High |
 
 ### Preconditions
-- User is on the login page.
+- User berada di login.
 
 ### Test Data
-- Username: Empty
+- Username: kosong
 - Password: secret_sauce
 
 ### Test Steps
-1. Open the login page.
-2. Leave the username field empty.
-3. Enter a valid password.
-4. Click the Login button.
+1. Buka halaman login.
+2. tidak input username(kosong).
+3. Masukkan kata sandi valid.
+4. Klik tombol Masuk.
 
 ### Expected Result
-- Login is rejected.
-- User remains on the login page.
-- A validation error related to the username is displayed.
+- Login ditolak.
+- User tetap berada di halaman login.
+- Pesan error yang sesuai ditampilkan.
 
 ### Actual Result
-Not executed.
+Login ditolak setelah username tidak di input (kosong). User tetap berada di halaman login, dan pesan Error ditampilkan.
 
 ### Status
-NOT RUN
+PASS
 
 ---
 
-## TC-LOGIN-005 – Login with Empty Password
+## TC-LOGIN-005 – Login dengan password kosong.
 
 | Field | Description |
 |---|---|
@@ -172,28 +172,28 @@ NOT RUN
 | Priority | High |
 
 ### Preconditions
-- User is on the login page.
+- User berada di login.
 
 ### Test Data
 - Username: standard_user
-- Password: Empty
+- Password: kosong
 
 ### Test Steps
-1. Open the login page.
-2. Enter a valid username.
-3. Leave the password field empty.
-4. Click the Login button.
+1. Buka halaman Login.
+2. Masukkan username valid.
+3.tidak input password(kosong).
+4. Klik tombol Masuk.
 
 ### Expected Result
-- Login is rejected.
-- User remains on the login page.
-- A validation error related to the password is displayed.
+- Login ditolak.
+- User tetap berada di halaman login.
+- Pesan error yang sesuai ditampilkan.
 
 ### Actual Result
-Not executed.
+Login ditolak setelah password tidak di input (kosong). User tetap berada di halaman login, dan pesan Error ditampilkan.
 
 ### Status
-NOT RUN
+PASS
 
 ---
 
@@ -208,28 +208,28 @@ NOT RUN
 | Priority | High |
 
 ### Preconditions
-- User is on the login page.
+- User berada di login.
 
 ### Test Data
 - Username: locked_out_user
 - Password: secret_sauce
 
 ### Test Steps
-1. Open the login page.
-2. Enter the locked user account.
-3. Enter the correct password.
-4. Click the Login button.
+1. Buka halaman login.
+2. Masuk ke akun user yang terkunci.
+3. Masukkan password benar.
+4. Klik tombol login.
 
 ### Expected Result
-- Login is rejected.
-- User is not redirected to the inventory page.
-- An appropriate locked-account error message is displayed.
+- Login ditolak.
+- User tetap berada di halaman login.
+- Pesan kesalahan yang sesuai ditampilkan.
 
 ### Actual Result
-Not executed.
+Login ditolak setelah akun yang dimasukkan terkunci. User tetap berada di halaman login, dan pesan Error ditampilkan..
 
 ### Status
-NOT RUN
+PASS
 
 ---
 
