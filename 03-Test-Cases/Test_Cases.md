@@ -16,8 +16,7 @@ Untuk memverifikasi bahwa fitur-fitur utama aplikasi e-commerce berfungsi sebaga
 
 # 1. Login Test Cases
 
-## TC-LOGIN-001 – Login with Valid Credentials
-
+## TC-LOGIN-001 – Login menggunakan kredensial valid
 | Field | Description |
 |---|---|
 | Test Case ID | TC-LOGIN-001 |
@@ -27,29 +26,30 @@ Untuk memverifikasi bahwa fitur-fitur utama aplikasi e-commerce berfungsi sebaga
 | Priority | High |
 
 ### Preconditions
-- User is on the login page.
-- User account is active.
+- Pengguna berada di halaman login
+- Akun pengguna aktif
 
 ### Test Data
 - Username: standard_user
 - Password: secret_sauce
 
 ### Test Steps
-1. Open https://www.saucedemo.com/
-2. Enter a valid username.
-3. Enter a valid password.
-4. Click the Login button.
+1. Buka https://www.saucedemo.com/
+2. Masukkan username valid
+3. Masukkan password valid
+4. Klik Login.
 
 ### Expected Result
-- User successfully logs in.
-- User is redirected to the inventory page.
-- Available products are displayed.
+- Pengguna berhasil masuk.
+- Pengguna diarahkan ke halaman Inventory.
+- Produk yang tersedia ditampilkan.
 
 ### Actual Result
-Not executed.
+User berhasil login dan diarahkan ke halaman Inventory.
+Seluruh produk ditampilkan dengan benar.
 
 ### Status
-NOT RUN
+PASS
 
 ---
 
