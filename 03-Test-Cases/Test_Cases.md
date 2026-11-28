@@ -10,7 +10,7 @@
 - Test Status: NOT RUN
 
 ## Objective
-To verify that the main features of the e-commerce application work as expected, including login, inventory, product sorting, shopping cart, checkout, and order completion.
+Untuk memverifikasi bahwa fitur-fitur utama aplikasi e-commerce berfungsi sebagaimana mestinya, termasuk login, inventaris, penyortiran produk, keranjang belanja, proses pembayaran (checkout), dan penyelesaian pesanan.
 
 ---
 
